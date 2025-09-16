@@ -1,7 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* small sreen styles */
+@media (max-width: 760px) {
 
-@media (max-width: 500){
+    .hero-img, #smile{
+        display: none;
+    }
+    .hero-text{
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-desc{
+        margin-bottom:1.5rem;
+    }
+
+    .under-base-container{
+        display: block !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .under-base-container .product-card{
+        display: flex;
+        margin-bottom: 2rem;
+    }
+    .under-base-container .base-text{
+        margin-left: 1.5rem;
+    }
+
 
 }
 *{
@@ -28,6 +53,7 @@ header{
 .navbar{
     display: flex;
     justify-content: space-between;
+    gap: 50px;
     align-items: center;
     color: #242323;
     
@@ -59,6 +85,7 @@ header{
 
 .signup-btn:hover{
     background-color: #DFC23E;
+    color: #000 !important;
 }
 main{
     margin-top: 150px;
@@ -116,6 +143,12 @@ main{
     border-radius: 5px;
 }
 
+.hero-desc a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s ease-in-out;
+}
+
 /* Brands section styles */
 
 .brand-container{
@@ -154,6 +187,7 @@ main{
 .under-base-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
     padding: 0px;
     gap: 80px;
@@ -187,7 +221,6 @@ main{
     gap: 15%;
     width: 100%;
     height: 60vh;
-    /* margin: 0 auto; */
     margin-top: 25px;
     align-items: center;
     background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
@@ -234,7 +267,11 @@ main{
     margin-top:15px ;
     margin-left: 50px;
 }
-
+.snd-shop-btn:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s ease-in-out;
+}
 
 /* Young section styles */
 
@@ -467,7 +504,7 @@ main{
 
 .product-card:hover .base-img1 img{
     transform: scale(1.1);
-    margin-bottom: 5px;
+    margin-bottom: 1.5rem;
 }
 
 .product-card .base-img2 img {
@@ -476,7 +513,7 @@ main{
 
 .product-card:hover .base-img2 img{
     transform: scale(1.1);
-    margin-bottom: 5px;
+    margin-bottom: 1.5rem;
 }
 
 .product-card .base-img3 img {
@@ -486,7 +523,7 @@ main{
 
 .product-card:hover .base-img3 img{
     transform: scale(1.1);
-    margin-bottom: 5px;
+    margin-bottom: 1.5rem;
 }
 
 .young-img{
