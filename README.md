@@ -1,4 +1,4 @@
-# 👗 Fashion Store Landing Page
+# Fashion Store Landing Page
 
 This is a fully responsive and modern landing page for a fictional fashion eCommerce brand. Built using HTML and CSS, the site features a stylish layout with hover animations, product showcases, and a strong visual identity tailored for fashion retail.
 
